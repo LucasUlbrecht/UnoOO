@@ -53,7 +53,7 @@ public class Mais4 extends Acao {
     }
     return trocacor;
   */ 
-  //Mudanças feitas conforme oque foi discutido com roda
+  //Mudanças feitas conforme oque foi discutido com roda, entretanto elas não foram aplicadas, de fato ao código, por poderem trazer problemas aos outros grupos
     roda.comprar(4, roda.jogadorDaVez()); /**indica a compra de quatro cartas para o jogador correspondente*/
   }
 }

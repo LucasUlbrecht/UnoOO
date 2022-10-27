@@ -48,6 +48,6 @@ public class TrocaCor extends Acao {
     }
     return trocacor;
   */
-  //Modificação feita conforme oque foi discutido com roda
+  //Mudanças feitas conforme oque foi discutido com roda, entretanto elas não foram aplicadas, de fato ao código, por poderem trazer problemas aos outros grupos
   }
 }
