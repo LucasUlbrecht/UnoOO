@@ -16,6 +16,7 @@ public class Mais4 extends Acao {
 
 
  /**
+ * Troca cor: pega uma clone da carta mais 4 ultilizada e retorna para o jogo
  * Resumo: O jogo ficou responsável de fazer a acumulação da quantidade de compras
  */
   public void realizar(Roda roda) { // trocar função de void para Carta
@@ -53,7 +54,6 @@ public class Mais4 extends Acao {
     return trocacor;
   */ 
   //Mudanças feitas conforme oque foi discutido com roda
-    /** Precisamos conversar com outros integrantes para realizar mudanças nessa etapa de mudarCor*/
     roda.comprar(4, roda.jogadorDaVez()); /**indica a compra de quatro cartas para o jogador correspondente*/
   }
 }
