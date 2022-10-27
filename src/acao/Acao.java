@@ -9,6 +9,12 @@ public abstract class Acao {
    * @param roda
    */
   public abstract void realizar (Roda roda);
+  /**
+   * Função que serve para padronizar metódos de cartas especiais sem cor (+4, troca cor)
+   * @param roda
+   * @return Carta
+   */
+  //public abstract void Carta (Roda roda);
 }
 
 /**
